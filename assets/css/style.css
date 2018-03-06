@@ -169,13 +169,55 @@ height: 690px;
 border-style: solid;
 border-width: .06px;
 border-color:grey;
+border-bottom-color: grey;
 text-align: left;
 position: relative;
-border-bottom: gray
+float: left;
+
+
 
 
 }
 
+
+.contact-me {
+
+    background:rgb(255, 214, 202);
+    width: 650px;
+    height: 690px;
+    border-style: solid;
+    border-width: .06px;
+    border-color:grey;
+    border-bottom-color: grey;
+    text-align: left;
+    position: relative;
+    float: left;
+    
+    
+    
+    
+    }
+    
+.portfolio-me {
+
+        background:rgb(255, 214, 202);
+        width: 650px;
+        height: 690px;
+        border-style: solid;
+        border-width: .06px;
+        border-color:grey;
+        border-bottom-color: grey;
+        text-align: left;
+        position: relative;
+        float: left;
+        
+        
+        
+        
+    }
+
+
+    
 
 .writing {
     
@@ -188,34 +230,46 @@ border-bottom: gray
 
 }
 
-footer {
-  padding: 10px;
-  margin-bottom: 20px;
-  color:white;
-  background:rgb(210, 210, 210);
-  clear: both;
-  border-top-style: solid;
-  border-top-color: grey;
-  border-top-width: .08cm;
-  width: 100%;
-  margin-top: 10px;
- 
+.footer {
 
+    background:rgb(210, 210, 210);
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: .08cm;
+    margin-top: 20px;
+    
+    }
+    
+    
+.text-muted {
+    
+    
+        position: relative;
+        min-height: 100%;
+        text-align: center;
+    
+        padding: 10px;
+        background:rgb(210, 210, 210);
+        
+        margin-top: 10px;
+    
+        font-size: 25px;
+        font-weight: bolder;
+    
+        color: white;
+    
+    
+    
 }
 
-/* #footer,
-.push {
-  height: 70px;
-} */
-
-h3 {
+/* h3 {
     text-align: center;
     font-weight: bolder;
     font-size: 20px;
     margin-right: 55px;
 
 
-}
+} */
 
 .social-media {
     width: 30%;
@@ -250,6 +304,8 @@ input[type=submit] {
 
 
 }
+
+
 
 input[type=submit]:hover {
     background-color:rgb(255, 195, 173);
@@ -332,4 +388,465 @@ label{
     clear: both;
 
 }
+
+/* ///////INDEX Media Queries ///////*/
+
+
+@media screen and (max-width: 980px) {
+
+    #bar {
+        width: 101%;
+
+    }
+
+    .site {
+
+        width: 980px;
+    }
+
+    #full {
+
+        width: 800px;
+        overflow: auto;
+
+
+    }
+
+    #name {
+
+        width: 26%;
+        margin-left: 15.5%;
+
+    }
+
+    #connect {
+        width: 35%;
+        
+
+
+    }
+
+    .social-media {
+
+        width: 30%;
+        height: 40%;
+        padding: 3px;
+        margin-left: 7px;
+    }
+
+    .about-me {
+
+            width: 50%;
+          
+
+    }
+
+    img {
+        
+        width: 400px;
+        height: 280px;
+        padding-right: 30px;
+        
+
+
+    }
+
+    .writing {
+
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    
+
+    .footer {
+
+        width: 100%;
+
+    }
+
+
+    /* CONTACT ME */
+
+    .contact-me {
+
+        width: 50%;
+        height: 90%;
+   
+
+    }
+
+    label {
+
+        padding: 10px;
+
+    }
+
+
+    /* portfolio */
+
+    section.portfolio-me {
+        
+        width: 50%;
+        height: 990px;
+
+
+    }
+
+    .work h4 {
+
+        margin-left: 43px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #bar {
+        width: 100%;
+        
+    }
+
+    header {
+
+        width: 100%;
+        font-size: 30px;
+        padding-top: 0px;
+
+    }
+
+    nav {
+
+        float: right;
+        margin-top: -50px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    
+    nav a {
+    
+        color: grey;
+        margin-left: 13px;
+        display: inline-block;
+        border-left: 1px solid grey;
+        padding-left: 14px;
+        line-height: 18px;
+        font-size: 28px;
+    
+    }
+
+    .site {
+
+        width: 768px;
+    }
+
+    #full {
+
+        width: 600px;
+        overflow: auto;
+       margin-left: 85px;
+       position: relative;
+
+
+    }
+
+    #name {
+
+        width: 29%;
+        margin-left: 15.2%;
+        padding: 0px;
+        padding-top: 15px;
+
+    }
+
+    #connect {
+        
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+        margin-top: 30px;
+
+        
+
+
+    }
+
+    .social-media {
+
+        width: 28%;
+        height: 70%;
+        padding: 3px;
+        margin-left: 23px;
+    }
+
+    .about-me {
+
+            width: 100%;
+            height: 50%;
+            float:none;
+
+    }
+
+
+    img {
+        
+        width: 290px;
+        height: 160px;
+        padding-right: 30px;
+        
+
+
+    }
+
+    .writing {
+
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 0px;
+        
+    }
+    
+
+
+    h2 {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-bottom: 5px;
+        color: white;
+        text-align: left;
+        font-size: 25px;
+        font-weight:bolder;   
+        margin-left: 8%;
+        margin-right: 8%;
+        border-bottom: .06cm solid grey;
+
+
+    }
+
+    /* contact form */
+
+
+    .contact-me {
+
+     
+        width: 100%;
+        height: 80%;
+        float:none;
+    }
+
+    /* portfolio */
+
+
+    section.portfolio-me {
+        
+        width: 100%;
+        height: 990px;
+        float: none;;
+
+
+
+    }
+ 
+    .auth-image {
+
+        float: none;
+
+    }
+
+    .work {
+        position: relative;
+        float: none;
+
+    }
+
+
+
+
+}
+/* ////////////////640/////////////////// */
+@media screen and (max-width: 640px) {
+    
+    #bar {
+        background: rgb(255, 195, 173);
+        margin-top: 0px;
+        height: 90px;
+        width: 100%;
+        
+
+    }
+
+    header {
+
+        width: 100%;
+        font-size: 25px;
+        padding-top: 0px;
+  
+        
+
+    }
+
+  
+   
+    nav {
+
+     
+        margin-top: -30px;
+        margin-bottom: 10px;
+        float: none;
+        background: lightgrey;
+   
+       
+        
+    }
+    
+    nav a {
+    
+        color: grey;
+        margin-left: 13px;
+        display: inline-block;
+        border-left: 1px solid grey;
+        padding-left: 14px;
+        line-height: 18px;
+        font-size: 23px;
+    
+    }
+   
+   
+    #name {
+
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+
+    }
+   
+    #full {
+
+        width: 400px;
+       overflow: auto;
+        margin-left: 121px;
+
+
+    }
+
+  
+
+    #connect {
+        
+        width: 100%;
+        height: 25%;
+        float: none;
+        margin-bottom: 20px;
+        margin-top: 30px;  
+
+
+    }
+
+    .social-media {
+
+        width: 20%;
+        height: 60%;
+        padding: 3px;
+        margin-left: 30px;
+    }
+
+    .about-me {
+
+            width: 100%;
+            height: 75%;
+            float:none;
+
+    }
+
+    .title {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    img {
+        
+        width: 350px;
+        height: 200px;
+        margin-right: 5%;
+        margin-left: 5%;
+      
+        
+
+
+    }
+
+    .writing {
+
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 0px;
+        height: 10%;
+        
+    }
+    
+
+    .footer {
+
+        width: 100%;
+
+    }
+
+    h2 {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-bottom: 5px;
+        color: white;
+        text-align: left;
+        font-size: 25px;
+        font-weight:bolder;   
+        margin-left: 8%;
+        margin-right: 8%;
+        border-bottom: .06cm solid grey;
+
+
+    }
+
+
+    /* //////CONTACT Media Query////// */
+
+    label {
+
+        padding: 10px;
+
+        
+    }
+
+
+    /* portfolio */
+
+    section.portfolio-me {
+        
+        width: 80%;
+        height: 900px;
+        float: none;;
+        margin-left: 40px;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
 
